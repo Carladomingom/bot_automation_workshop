@@ -14,7 +14,7 @@ Herramienta de web scraping con integración de Telegram Bot para automatizar la
 ### Dependencias
 
 ```bash
-pip install playwright
+pip3 install playwright
 playwright install chromium
 pip3 install python-telegram-bot
 pip3 install python-dotenv
@@ -55,7 +55,8 @@ TELEGRAM_TOKEN=63xxxxxx71:AAFoxxxxn0hwA-2TVSxxxNf4c
 1. Rellena tu token en esta URL (reemplaza `TU_TOKEN` con tu token real):
 
     ```
-    https://api.telegram.org/botTU_TOKEN/getUpdates
+    https://api.telegram.org/bot8602725783:AAFb466sbzfObrTfWdkvrtosRKDL9AxnTG4
+/getUpdates
     ```
 
 2. Abre la URL en tu navegador
